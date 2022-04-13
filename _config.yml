@@ -1,0 +1,31 @@
+#theme: minima
+remote_theme: jekyll/minima
+
+# Site settings
+title: 派猴子来的救兵
+email: heychilde@gmail.com
+description:
+
+baseurl: "/ohmycat/"
+url: "https://childe.github.io"
+github_username:  childe
+
+excerpt_separator: <!--more-->
+
+plugins:
+- jekyll-remote-theme
+
+google_analytics: UA-56892769-2
+
+minima:
+  skin: solarized
+  date_format: "%-d %b, %Y"
+
+  header_pages:
+    - about.md
+  social_links:
+    github: childe
+
+author:
+  name: childe
+  email: "rmself@qq.com"
